@@ -5,15 +5,15 @@ package com.java.learn.designmode.bridge.excution;
  */
 public class Adapter extends RefinedRealize implements Adaptee{
 
-    private Realize realize;
-
-    public Adapter(Realize realize) {
-        this.realize = realize;
-    }
+//    private Realize realize;
+//
+//    public Adapter(Realize realize) {
+//        this.realize = realize;
+//    }
 
     @Override
     public void say() {
-        realize.hello();
+        super.hello();
         System.out.println("===============");
     }
 }

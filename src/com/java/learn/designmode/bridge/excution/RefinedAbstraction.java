@@ -19,7 +19,7 @@ public class RefinedAbstraction extends Abstraction {
     }
 
     public static void main(String[] args) {
-        RefinedAbstraction refinedAbstraction = new RefinedAbstraction(new Adapter(new RefinedRealize()));
+        RefinedAbstraction refinedAbstraction = new RefinedAbstraction(new Adapter());
         refinedAbstraction.lock();
     }
 }
