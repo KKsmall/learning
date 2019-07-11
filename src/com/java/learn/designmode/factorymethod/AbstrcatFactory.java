@@ -8,4 +8,7 @@ package com.java.learn.designmode.factorymethod;
 public interface AbstrcatFactory {
 
     Product newProduct();
+
+    //Product newXiYiJi();
+    //Product newDianShiJi();
 }
